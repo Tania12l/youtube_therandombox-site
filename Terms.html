@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service &mdash; {{PROJECT_NAME}}</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">{{PROJECT_NAME}}</a>
+    <nav class="pages" aria-label="Site">
+      <a href="index.html">Home</a>
+      <a href="privacypolicy.html">Privacy Policy</a>
+      <a href="terms.html" aria-current="page">Terms of Service</a>
+    </nav>
+  </div>
+</div>
+
+<main>
+  <h1>Terms of Service</h1>
+  <p class="updated">Last updated: {{LAST_UPDATED_DATE}}</p>
+
+  <p>
+    These terms cover {{PROJECT_NAME}}, an automated video-generation
+    pipeline operated by a single developer. There is no public sign-up,
+    no accounts, and no service offered to third parties &mdash; these
+    terms exist mainly to satisfy the Google API verification process and
+    to be transparent about how the project runs.
+  </p>
+
+  <h2>What the service is</h2>
+  <p>
+    {{PROJECT_NAME}} runs on a schedule, generates short videos from
+    source material the operator controls, and publishes them to a single
+    YouTube channel owned by the operator. It does not accept input from
+    the public and does not act on behalf of anyone other than the
+    operator.
+  </p>
+
+  <h2>No warranty</h2>
+  <p>
+    This project is provided "as is," with no guarantee that it will run
+    on any particular schedule, produce any particular output, or remain
+    available at all. It may be changed, paused, or shut down at any time
+    without notice.
+  </p>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    To the fullest extent permitted by law, the operator is not liable
+    for any damages or losses arising from the use, output, or
+    unavailability of this project, including any videos it publishes.
+  </p>
+
+  <h2>Acceptable use</h2>
+  <p>
+    Because this project has no public users, this section is limited to
+    the operator's own commitment: source material is either owned by the
+    operator, used under a license that permits this use, or otherwise
+    lawfully sourced, and published videos will comply with YouTube's own
+    Terms of Service and Community Guidelines.
+  </p>
+
+  <h2>Changes to these terms</h2>
+  <p>
+    These terms may be updated as the project changes. Continued
+    operation of the pipeline after an update means the new terms apply.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about these terms can be sent to
+    <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.
+  </p>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    {{PROJECT_NAME}} &middot; source at
+    <a class="path" href="{{REPO_URL}}">{{REPO_URL}}</a>
+  </div>
+</footer>
+
+</body>
+</html>
